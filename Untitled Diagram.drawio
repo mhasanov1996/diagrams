@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T11:43:04.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="pYwiFGLi8nOPNsCl6WWn" version="23.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T11:45:26.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="tot1NbSmmwgQXHBIaq44" version="23.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5597" dy="3050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -45,7 +45,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Akdkflnh7Jsl9hj940S-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4Akdkflnh7Jsl9hj940S-47" target="4Akdkflnh7Jsl9hj940S-56">
+        <mxCell id="4Akdkflnh7Jsl9hj940S-72" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4Akdkflnh7Jsl9hj940S-47" target="4Akdkflnh7Jsl9hj940S-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-47" value="Table A contains deposit not redempted?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -55,7 +55,7 @@
           <mxGeometry x="60" y="685" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-61" value="Procedure" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-60" y="980" width="900" height="1120" as="geometry" />
+          <mxGeometry x="-60" y="1130" width="900" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-25" value="Populate table B with dep_amt, coll_amt, loan_amt, redmp_amt" style="whiteSpace=wrap;html=1;" vertex="1" parent="4Akdkflnh7Jsl9hj940S-61">
           <mxGeometry x="400" y="130" width="120" height="60" as="geometry" />
@@ -148,6 +148,24 @@
             <Array as="points">
               <mxPoint x="835" y="725" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Akdkflnh7Jsl9hj940S-73" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Akdkflnh7Jsl9hj940S-71">
+          <mxGeometry x="-0.7524" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Akdkflnh7Jsl9hj940S-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4Akdkflnh7Jsl9hj940S-69" target="4Akdkflnh7Jsl9hj940S-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="980" />
+              <mxPoint x="590" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Akdkflnh7Jsl9hj940S-75" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Akdkflnh7Jsl9hj940S-74">
+          <mxGeometry x="-0.178" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-69" value="Status changed for last added deposit?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
