@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T11:57:28.184Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9bosDGkg4xDC6i2wso4w" version="23.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T11:59:15.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="F1B3iX-r0f9yk5_qkIev" version="23.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2154" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3215" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -55,13 +55,13 @@
           <mxGeometry x="60" y="685" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-61" value="Procedure" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-60" y="1169" width="900" height="1120" as="geometry" />
+          <mxGeometry x="-60" y="1130" width="900" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-25" value="Populate table B with dep_amt, coll_amt, loan_amt, redmp_amt" style="whiteSpace=wrap;html=1;" vertex="1" parent="4Akdkflnh7Jsl9hj940S-61">
           <mxGeometry x="400" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-27" value="colletral exist with redmp_amt &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4Akdkflnh7Jsl9hj940S-61">
-          <mxGeometry x="385" y="280" width="150" height="110" as="geometry" />
+          <mxGeometry x="385" y="271" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4Akdkflnh7Jsl9hj940S-61" source="4Akdkflnh7Jsl9hj940S-25" target="4Akdkflnh7Jsl9hj940S-27">
           <mxGeometry relative="1" as="geometry" />
@@ -98,7 +98,7 @@
         <mxCell id="4Akdkflnh7Jsl9hj940S-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4Akdkflnh7Jsl9hj940S-61" source="4Akdkflnh7Jsl9hj940S-38" target="4Akdkflnh7Jsl9hj940S-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="670" y="335" />
+              <mxPoint x="670" y="326" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -109,7 +109,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-41" value="Redempt deposit &lt;br&gt;amount&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="4Akdkflnh7Jsl9hj940S-61">
-          <mxGeometry x="170" y="305" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="296" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4Akdkflnh7Jsl9hj940S-61" source="4Akdkflnh7Jsl9hj940S-27" target="4Akdkflnh7Jsl9hj940S-41">
           <mxGeometry relative="1" as="geometry" />
@@ -119,7 +119,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Akdkflnh7Jsl9hj940S-43" value="Add status to table C" style="whiteSpace=wrap;html=1;" vertex="1" parent="4Akdkflnh7Jsl9hj940S-61">
+        <mxCell id="4Akdkflnh7Jsl9hj940S-43" value="Populate table C and update status for deposit" style="whiteSpace=wrap;html=1;" vertex="1" parent="4Akdkflnh7Jsl9hj940S-61">
           <mxGeometry x="170" y="445" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Akdkflnh7Jsl9hj940S-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4Akdkflnh7Jsl9hj940S-61" source="4Akdkflnh7Jsl9hj940S-41" target="4Akdkflnh7Jsl9hj940S-43">
